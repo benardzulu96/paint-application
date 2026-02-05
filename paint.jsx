@@ -61,3 +61,10 @@ function draw() {
     line(pmouseX, pmouseY, mouseX, mouseY);
   }
 }
+
+
+//create a function that allows the user to save the canvas as an image
+function saveCanvas() {
+  saveCanvas("myCanvas", "png");
+}
+//testinggit
